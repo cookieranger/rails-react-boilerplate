@@ -15,7 +15,8 @@
     "regenerate": "./src/cardimgs/getcards",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "find src | entr jest --env=jsdom",
+    "test2": "find src | entr jest --env=jsdom",
+    "test" : "react-scripts test",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
